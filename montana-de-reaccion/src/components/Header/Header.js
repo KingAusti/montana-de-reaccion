@@ -1,18 +1,11 @@
 import './Header.css';
 
-function Header() {
+function Header(props) {
   return (
     <div className="Header">
         <header>
             <p>Hey Im Austin</p>
-            <nav>
-              <ul>
-                <li>About Me</li>
-                <li>Portfolio</li>
-                <li>Contact</li>
-                <li>Resume</li>
-              </ul>
-            </nav>
+            {props.children}
         </header>      
     </div>
   );

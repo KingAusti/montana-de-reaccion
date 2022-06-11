@@ -1,7 +1,7 @@
 function Portfolio() {
     return (
       <div className="Portfolio">
-        <h1>This is the body</h1>
+        <h1>This is the portfolio</h1>
       </div>
     );
   }
