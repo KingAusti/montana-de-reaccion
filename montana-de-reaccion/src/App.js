@@ -1,10 +1,11 @@
-import { useState } from 'react'
-import { Routes, Route, Link } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
-import About from './components/About/About'
-import Contact from './components/Contact/Contact'
-import Portfolio from './components/Porfolio/Portfolio'
-import Resume from './components/Resume/Resume'
+import About from './components/About/About';
+import Contact from './components/Contact/Contact';
+import Portfolio from './components/Porfolio/Portfolio';
+import Resume from './components/Resume/Resume';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -29,20 +30,8 @@ function App() {
   
   return (
     <div className="App">
-      <header>
-        <Link to='/'> 
-          About
-        </Link>
-        <Link to='/contact'> 
-          Contact
-        </Link>
-        <Link to='/portfolio'> 
-          Portfolio
-        </Link>
-        <Link to='/resume'> 
-          Resume
-        </Link>
-      </header>
+      
+      <Header />
 
       <Routes>
         <Route 
@@ -63,7 +52,9 @@ function App() {
         />     
       </Routes> 
 
-      
+      <Footer />
+
+
       {/* <Header>
         <Nav
           pages={pages}
