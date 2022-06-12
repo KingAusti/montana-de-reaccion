@@ -54,7 +54,6 @@ function App() {
 
       <Footer />
 
-
       {/* <Header>
         <Nav
           pages={pages}

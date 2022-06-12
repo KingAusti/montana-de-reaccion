@@ -1,8 +1,8 @@
 function About() {
     return (
-      <About className="About">
+      <div className="About">
         
-        {/* <div class="about-style">        
+        <div class="about-style">        
           <h2>About Me</h2>
         </div>
         <p>
@@ -18,9 +18,9 @@ function About() {
         </p>
         <p>I'd love to hear from you!</p>
         <p><a href="https://www.linkedin.com/in/kingaustinhenry/">Connect with me on LinkedIn</a></p>            
-        <p><a href="https://www.instagram.com/biogimp/">Add me on Instagram</a></p> */}
+        <p><a href="https://www.instagram.com/biogimp/">Add me on Instagram</a></p>
         
-      </About>
+      </div>
     );
   }
   
