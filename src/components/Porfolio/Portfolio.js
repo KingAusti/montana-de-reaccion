@@ -1,8 +1,11 @@
 function Portfolio() {
     return (
-      <div className="Portfolio">
-        <h1>This is the portfolio</h1>
-      </div>
+      <portfolio className="Portfolio">
+        
+        {/* Running into issues with compiling the project links */}
+        <h1>This is the Portfolio</h1>
+      
+      </portfolio>
     );
   }
   
