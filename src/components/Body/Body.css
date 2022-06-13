@@ -1,0 +1,78 @@
+body{
+    background-color: black;
+    background-image: url(../../assets/Pictures/Owl-Background.jpg);
+    display: flex;
+    flex-direction: column;  
+}
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position:relative;     
+    }
+    header h1 {
+        width:100%;
+        text-align:center;
+    }
+    header nav ul {
+        margin-top:20px;
+        width:100%;
+        justify-content:center;        
+    }
+    header nav ul li a {
+        font-size:20px;
+    }
+    footer h2, footer div{
+        text-align:center;
+        width:100%;
+    }    
+    .section-title{
+        width:80%;    
+    } 
+  }  
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+  @media screen and (max-width: 768px) { 
+    section{
+        padding: 30px 15px;
+    }
+    .about {
+        font-size:small;
+        width: 60vw;
+        margin-right: 100px;
+    }
+    
+  }  
+    /*Utilities*/
+    .text-left{
+        text-align:left;
+    }
+    .text-right{
+        text-align:right;
+    }
+    .flex-row{
+        display:flex;
+    }
+    a:link { 
+        text-decoration: none; 
+    }
+    a:visited { 
+        text-decoration: none; 
+    }
+    a:hover { 
+        text-decoration: none; 
+    }
+    a:active { 
+        text-decoration: none; 
+    }
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {      
+    .section-title {
+          width:95%;          
+    }  
+    .about {
+        margin:86px;
+        margin-top:165px;
+    }    
+  }
