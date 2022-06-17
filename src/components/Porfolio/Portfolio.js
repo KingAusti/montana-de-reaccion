@@ -10,7 +10,7 @@ function Portfolio() {
           {/* <!--Most influential project in largest box element--> */}
             <a href='https://pokebuilder-v2.herokuapp.com/' id="pokebuilder" className="pokebuilder">pokebuilder v2</a>
             {/* <!--Previous project stacked veritically under the most important project--> */}
-            <a href='https://kingausti.github.io/Weathers-R-Us/' id="horiseon" className="weather-dashboard">weather-dashboard</a>
+            <a href='https://kingausti.github.io/Weathers-R-Us/' id="weather-dashboard" className="weather-dashboard">weather-dashboard</a>
             {/* <!--second project in noticabley smaller box element--> */}
             <div class = "lower-projects">
             <a href='https://kingausti.github.io/run-buddy/'  id="run-buddy" className="run-buddy">test</a>

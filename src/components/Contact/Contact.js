@@ -62,6 +62,11 @@ function Contact() {
             </button>
             
         </form>
+
+        <p>I'd love to hear from you!</p>
+        <p><a href="https://www.linkedin.com/in/kingaustinhenry/">Connect with me on LinkedIn</a></p>            
+        <p><a href="https://www.instagram.com/biogimp/">Add me on Instagram</a></p>
+
       </div>
     );
   }

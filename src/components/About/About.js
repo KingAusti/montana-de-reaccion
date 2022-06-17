@@ -2,12 +2,12 @@ function About() {
     return (
       <div className="About">
         
-        <div class="about-style">        
+        <div className="about-style">        
           <h2>About Me</h2>
         </div>
         <p>
           Hi my name is Austin, 
-          thank you for visiting 
+          thanks for visiting 
           my portfolio! 
         </p>
         <p>
@@ -15,10 +15,7 @@ function About() {
           I am a seasoned IT professional 
           looking to change me career to 
           be a Software Developer.
-        </p>
-        <p>I'd love to hear from you!</p>
-        <p><a href="https://www.linkedin.com/in/kingaustinhenry/">Connect with me on LinkedIn</a></p>            
-        <p><a href="https://www.instagram.com/biogimp/">Add me on Instagram</a></p>
+        </p>        
         
       </div>
     );

@@ -1,0 +1,6 @@
+contact{
+    background-color: black;
+    background-image: url(../../assets/Pictures/Owl-Background.jpg);
+    display: flex;
+    flex-direction: column;  
+}
