@@ -2,6 +2,13 @@
   text-align: center;
 }
 
+main {
+  min-height: 90.5vh;
+  max-height: 90.5vh;
+  background-color: plum;
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

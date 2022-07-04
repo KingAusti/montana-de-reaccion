@@ -1,6 +1,8 @@
-import './Portfolio';
+import './Portfolio.css';
+import projects from '../../utils/projects';
 
 function Portfolio() {
+
     return (
       <div className="Portfolio">
         
@@ -17,6 +19,14 @@ function Portfolio() {
             {/* <!--third project which is both the most difficult and the most ugly--> */}
             <a href='https://kingausti.github.io/robot-gladiators/' id="robot-gladiators" className="robot-gladiators">test</a>
             </div>
+
+          <div className='projects'>
+            {
+              projects.map((project, i) => (
+                <a className="project" style={{backgroundColor: project.color}} href={project.link} key={`project${i}`}>{project.name}</a>
+              ))
+            }
+          </div>
       </div>
     );
   }

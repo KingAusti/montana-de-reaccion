@@ -4,6 +4,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    min-height: 50vh;
 }
 .lower-projects{
     display:flex;    
@@ -21,7 +22,6 @@
     border-radius: 15px;
     flex-flow: column nowrap;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    background-image: url(./Pictures/PokeBuilder-V2.png);
 }
 .pokebuilder:hover{
     text-shadow: 0 0 10px rgba(0,0,0,0.5);
@@ -64,4 +64,9 @@
 }
 .robot-gladiators:hover {
     text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.project {
+   min-height: inherit;
+   width: 25%;
 }

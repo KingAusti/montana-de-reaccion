@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 
+
 function Nav(props) {
     
     const { pages=[], currentPage, setCurrentPage } = props

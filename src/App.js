@@ -6,6 +6,13 @@ import Portfolio from './components/Porfolio/Portfolio';
 import Resume from './components/Resume/Resume';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
+import Container from "react-bootstrap/Container";
+import { Link } from "react-router-dom";
+import { AiOutlineHome, AiOutlineFundProjectionScreen, AiOutlineUser, } from "react-icons/ai";
+import { CgFileDocument } from "react-icons/cg";
+
 
 
 function App() {
@@ -29,28 +36,29 @@ function App() {
   // )
   
   return (
-    <div className="Nav">
+    <div className="App">
       
       <Header />
-
-      <Routes>
-        <Route 
-          path='/'
-          element={<About />}
-        />
-        <Route 
-          path='contact'
-          element={<Contact />}
-        />
-        <Route 
-          path='portfolio'
-          element={<Portfolio />}
-        />
-        <Route 
-          path='resume'
-          element={<Resume />}
-        />     
-      </Routes> 
+      <main>
+        <Routes>
+          <Route 
+            path='/'
+            element={<About />}
+            />
+          <Route 
+            path='contact'
+            element={<Contact />}
+            />
+          <Route 
+            path='portfolio'
+            element={<Portfolio />}
+            />
+          <Route 
+            path='resume'
+            element={<Resume />}
+          />     
+        </Routes> 
+      </main>
 
       <Footer />
 
