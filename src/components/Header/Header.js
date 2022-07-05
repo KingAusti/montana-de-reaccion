@@ -5,7 +5,10 @@ import { Link } from 'react-router-dom';
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import { IconName } from "react-icons/ri";
+import Button from 'react-bootstrap/Button'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import ButtonGroup from 'react-bootstrap/ButtonGroup';
+import ToggleButton from 'react-bootstrap/ToggleButton';
 
 import { 
   RiMailSendFill,
@@ -15,8 +18,16 @@ import {
 } from "react-icons/ri";
 
 function NavBar() {
-  const [expand, updateExpanded] = useState(false);
+  const [expand, updateExpanded,checked, setChecked] = useState(false);
   const [navColour, updateNavbar] = useState(false);
+  // const [radioValue, setRadioValue] = useState('1');
+  // const radios = [
+  //   { name: 'Active', value: '1' },
+  //   { name: 'Radio', value: '2' },
+  //   { name: 'Radio', value: '3' },
+  // ];
+
+
 
   function scrollHandler() {
     if (window.scrollY >= 20) {
@@ -37,7 +48,7 @@ function NavBar() {
     >
       <Container>
         
-        <Navbar.Toggle
+        {/* <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
             updateExpanded(expand ? false : "expanded");
@@ -46,7 +57,7 @@ function NavBar() {
           <span></span>
           <span></span>
           <span></span>
-        </Navbar.Toggle>
+        </Navbar.Toggle> */}
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
             

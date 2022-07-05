@@ -3,9 +3,9 @@ footer{
     justify-content: space-evenly;
     flex-wrap: wrap;
     border: solid 1px;
-    background-color:cadetblue;
+    background-color:#351c75;
     text-decoration: none;
-    color: black;
+    color: whitesmoke;
     font-weight: bold;
     padding:8px;
 }

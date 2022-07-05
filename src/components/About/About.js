@@ -1,4 +1,6 @@
 import './About.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Image from 'react-bootstrap/Image'
 
 function About() {
     return (
@@ -7,6 +9,7 @@ function About() {
         <div className="about-style">        
           <h2>About Me</h2>
         </div>
+        <Image></Image>
         <p>
           Hi my name is Austin, 
           thanks for visiting 
