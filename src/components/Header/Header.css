@@ -1,62 +1,14 @@
-header{    
-    justify-content:space-between;
-    flex-wrap: wrap;
-    background-color:brown;
-    /* background-image: url(../../assets/Pictures/Owl-Background.jpg); */
-    object-fit: cover;
+.header{    
+    justify-content:space-evenly;    
+    background-color:cadetblue;
+    color: black;
+    text-decoration: none;      
 }
-header h1 {    
-    text-align:center;
-    font-weight:bold;
-    font-size: 36px;
-    margin:0;
-    text-shadow: 0 0 10px rgba(0,0,0,0.5);
-    background-color: black;
-    color: white;
-    flex-wrap:wrap;
-}
-header nav ul{
-    text-shadow: 0 0 10px rgba(0,0,0,0.5);
-    margin: 1px;
-    padding: 1px;
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:space-between;
-    align-items: center;    
-    height:15px;    
-    text-decoration:none;
-}
-li {
-    text-decoration: none;
-}
-header nav ul{
-    text-decoration: none;
-}
-header nav ul li {
-    text-decoration:none;    
-    padding: 10px;
-}
-header nav a {
-    display:flex;
-    text-align: center;
-    flex-wrap:wrap;
-    color: whitesmoke;
-    flex-direction: row-reverse;
-    font-size:25px;
-    justify-content: space-evenly;
-    overflow: auto;
-    text-decoration: none;
-    align-self:auto;
-    padding: 5px;
-}
-header a:hover{
-    background-color:black;
-    color:white;
-    text-shadow: 0 0 10px rgba(0,0,0,0.5);
-    border-radius:15px;
-    padding: 5px;
-    text-decoration: none;
-}
+
+/* header :hover {
+    font-weight: bold;
+    background-color: cadetblue;
+} */
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
@@ -96,7 +48,7 @@ header a:hover{
         margin-right: 100px;
     }
     
-  }  
+  }   
     /*Utilities*/
     .text-left{
         text-align:left;

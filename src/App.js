@@ -6,6 +6,7 @@ import Portfolio from './components/Porfolio/Portfolio';
 import Resume from './components/Resume/Resume';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
+import Stack from 'react-bootstrap/Stack';
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
@@ -40,6 +41,7 @@ function App() {
       
       <Header />
       <main>
+      <Stack direction='horizontal' gap={100}> 
         <Routes>
           <Route 
             path='/'
@@ -58,6 +60,7 @@ function App() {
             element={<Resume />}
           />     
         </Routes> 
+        </Stack>
       </main>
 
       <Footer />

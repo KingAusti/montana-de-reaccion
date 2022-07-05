@@ -15,7 +15,7 @@ function About() {
         <p>
           With over 7 years in the field, 
           I am a seasoned IT professional 
-          looking to change me career to 
+          looking to change my career to 
           be a Software Developer.
         </p>        
         
