@@ -41,7 +41,7 @@ function App() {
       
       <Header />
       <main>
-      <Stack direction='horizontal' gap={100}> 
+      {/* <Stack direction='horizontal' gap={100}>  */}
         <Routes>
           <Route 
             path='/'
@@ -60,7 +60,7 @@ function App() {
             element={<Resume />}
           />     
         </Routes> 
-        </Stack>
+        {/* </Stack> */}
       </main>
 
       <Footer />

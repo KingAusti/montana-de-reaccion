@@ -1,20 +1,20 @@
 import { useState } from 'react'
+import { useForm } from '@formspree/react';
+
 
 function Contact() {
-
+    
     const [formState, setFormState] = useState({
         name: '',
         email: '',
         message: ''
     });
-
+    
+    const [state, handleSubmit] = useForm("mgedjkpd");
+      if (state.succeeded) {
+          return <p>Thanks for reaching out!</p>;
+      }
     const { name, email, message } = formState;
-
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        //setFormState({ name: '', email: '', message: '' })
-        console.log(e);
-    }
 
     const handleChange = (e) => {
         setFormState({ ...formState, [e.target.name]: e.target.value });
