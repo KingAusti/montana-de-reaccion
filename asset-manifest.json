@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/montana-de-reaccion/static/css/main.a0bedf1e.css",
+    "main.js": "/montana-de-reaccion/static/js/main.87d78f5e.js",
+    "static/js/787.23a25bd4.chunk.js": "/montana-de-reaccion/static/js/787.23a25bd4.chunk.js",
+    "static/media/PokeBuilder.png": "/montana-de-reaccion/static/media/PokeBuilder.d961d05139ed8dff962a.png",
+    "static/media/Austin-Resume-2022.pdf": "/montana-de-reaccion/static/media/Austin-Resume-2022.dd70fa113dd17c43248a.pdf",
+    "static/media/robot-gladiators.png": "/montana-de-reaccion/static/media/robot-gladiators.1b2240d5f32a405af300.png",
+    "index.html": "/montana-de-reaccion/index.html",
+    "main.a0bedf1e.css.map": "/montana-de-reaccion/static/css/main.a0bedf1e.css.map",
+    "main.87d78f5e.js.map": "/montana-de-reaccion/static/js/main.87d78f5e.js.map",
+    "787.23a25bd4.chunk.js.map": "/montana-de-reaccion/static/js/787.23a25bd4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0bedf1e.css",
+    "static/js/main.87d78f5e.js"
+  ]
+}
