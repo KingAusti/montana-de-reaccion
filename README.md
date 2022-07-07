@@ -36,8 +36,8 @@ This a project was built using <br>
 * VsCode
 
 ## Demo
-![Portfolio Screenshot](./src/Assets/Screenshot%202022-06-18%20100155.jpg)
-Link to deployed application - https://irvingjem.github.io/jem-portfolio
+![Portfolio Screenshot](./src/assets/Pictures/Project-Screenshot.png)
+[Link to deployed application](https://kingausti.github.io/portfolio)
 ## Author 
 [KingAusti](https://github.com/KingAusti)
 
