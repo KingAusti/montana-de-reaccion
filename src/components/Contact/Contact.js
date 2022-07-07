@@ -1,5 +1,7 @@
+import './Contact.css'
 import { useState } from 'react'
 import { useForm } from '@formspree/react';
+
 
 
 function Contact() {
@@ -22,7 +24,7 @@ function Contact() {
 
     return (
       <div className="Contact">
-        <h1>This is how to contact me</h1>
+        <h1>Hi friend! This is how you contact me!!</h1>
         <form onSubmit={handleSubmit}>
             <div>
                 <label htmlFor="name">
@@ -64,9 +66,6 @@ function Contact() {
         </form>
 
         <p>I'd love to hear from you!</p>
-        <p><a href="https://www.linkedin.com/in/kingaustinhenry/">Connect with me on LinkedIn</a></p>            
-        <p><a href="https://www.instagram.com/biogimp/">Add me on Instagram</a></p>
-
       </div>
     );
   }

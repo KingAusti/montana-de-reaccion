@@ -2,6 +2,7 @@ footer{
     display:flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    flex-direction: row;
     border: solid 1px;
     background-color:#351c75;
     text-decoration: none;
@@ -71,6 +72,9 @@ footer{
     }
     a:active { 
         text-decoration: none; 
+    }
+    .footer {
+        text-decoration: none;
     }
   /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
   @media screen and (max-width: 575px) {      

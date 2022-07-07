@@ -4,3 +4,6 @@ contact{
     display: flex;
     flex-direction: column;  
 }
+form {
+    align-items: center;
+}
