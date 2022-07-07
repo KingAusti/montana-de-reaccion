@@ -13,15 +13,15 @@ function Footer() {
   return (
     <footer>
       <Row>
-        <Col  className="copywright">
+        <Col  className="copywrite">
           <h3>Austin Henry</h3>
         </Col>
-        <Col  className="copywright">
+        <Col  className="copywrite">
           <h3>Copyright © {currentYear}</h3>
         </Col>
         <Col  className="footer">
-          <ul className="icons">
-            <li className="social">
+          <div className="icons">
+            <div className="social">
               <a
                 href="https://github.com/kingausti"
                 style={{ color: "white" }}
@@ -30,8 +30,8 @@ function Footer() {
               >
                 <FaGithub />
               </a>
-            </li>
-            <li className="social">
+            </div>
+            <div className="social">
               <a
                 href="https://www.linkedin.com/in/king-austin-henry/"
                 style={{ color: "white" }}
@@ -40,8 +40,8 @@ function Footer() {
               >
                 <FaLinkedinIn />
               </a>
-            </li>
-            <li className="social">
+            </div>
+            <div className="social">
               <a
                 href="https://www.instagram.com/biogimp/"
                 style={{ color: "white" }}
@@ -50,13 +50,10 @@ function Footer() {
               >
                 <FaInstagram />
               </a>
-            </li>
-          </ul>
+            </div>
+          </div>
         </Col>
-      </Row>
-        
-
-        
+      </Row>        
     </footer>
   );
 }

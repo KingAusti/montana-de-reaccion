@@ -10,7 +10,16 @@ footer{
     font-weight: bold;
     padding:8px;
 }
-
+.icons{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.copywrite {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
