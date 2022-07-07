@@ -38,7 +38,7 @@ This a project was built using <br>
 ![Portfolio Screenshot](./src/assets/Pictures/Project-Screenshot.png)
 [Link to deployed application](https://kingausti.github.io/portfolio)
 ## Author 
-[KingAusti](https://github.com/KingAusti)
+[KingAusti](https://kingausti.github.io/montana-de-reaccion/)
 
 ## SPECIFICATIONS
 GIVEN a single-page application portfolio for a web developer<br>
