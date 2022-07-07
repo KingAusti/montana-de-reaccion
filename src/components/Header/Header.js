@@ -15,7 +15,7 @@ import {
 } from "react-icons/ri";
 
 function NavBar() {
-  const [expand, updateExpanded,checked, setChecked] = useState(false);
+  const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
   // const [radioValue, setRadioValue] = useState('1');
   // const radios = [

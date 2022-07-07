@@ -2,7 +2,6 @@ import './Portfolio.css';
 import projects from '../../utils/projects';
 import Card from 'react-bootstrap/Card';
 import background0 from '../../assets/Pictures/PokeBuilder.png';
-import background1 from '../../assets/Pictures/robot-gladiators.png'
 
 function Portfolio() {
 
