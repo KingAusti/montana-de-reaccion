@@ -20,6 +20,15 @@ const projects = [
         src: background1,
         width: '18rem',
         height: '20rem'
+    },
+    {
+        title: 'PokeBuilder',
+        link: 'https://kingausti.github.io/robot-gladiators/',
+        description: 'snthsnatuhsnn antheusnat hu',
+        alt: 'background1',
+        src: background1,
+        width: '18rem',
+        height: '20rem'
     }
 ]
 
