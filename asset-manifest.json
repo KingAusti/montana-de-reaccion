@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/montana-de-reaccion/static/css/main.a9723a73.css",
-    "main.js": "/montana-de-reaccion/static/js/main.956d18ec.js",
+    "main.js": "/montana-de-reaccion/static/js/main.2a6a31d6.js",
     "static/js/787.23a25bd4.chunk.js": "/montana-de-reaccion/static/js/787.23a25bd4.chunk.js",
     "static/media/rascal-erratic.png": "/montana-de-reaccion/static/media/rascal-erratic.700abfc76eab538e4118.png",
     "static/media/PokeBuilder.png": "/montana-de-reaccion/static/media/PokeBuilder.d961d05139ed8dff962a.png",
     "static/media/Owl-Background.jpg": "/montana-de-reaccion/static/media/Owl-Background.8cdd1ebcbb7f2609d1b6.jpg",
     "static/media/Austin-Resume-2022.pdf": "/montana-de-reaccion/static/media/Austin-Resume-2022.dd70fa113dd17c43248a.pdf",
+    "static/media/robot-gladiators.png": "/montana-de-reaccion/static/media/robot-gladiators.1b2240d5f32a405af300.png",
     "static/media/weather-dashboard.png": "/montana-de-reaccion/static/media/weather-dashboard.836d40278e663a408083.png",
     "index.html": "/montana-de-reaccion/index.html",
     "main.a9723a73.css.map": "/montana-de-reaccion/static/css/main.a9723a73.css.map",
-    "main.956d18ec.js.map": "/montana-de-reaccion/static/js/main.956d18ec.js.map",
+    "main.2a6a31d6.js.map": "/montana-de-reaccion/static/js/main.2a6a31d6.js.map",
     "787.23a25bd4.chunk.js.map": "/montana-de-reaccion/static/js/787.23a25bd4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a9723a73.css",
-    "static/js/main.956d18ec.js"
+    "static/js/main.2a6a31d6.js"
   ]
 }
